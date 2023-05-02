@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TURISTIKApp.Main", "TuristikApp.Main\TURISTIKApp.Main.csproj", "{98A6A0F1-44FE-40C1-BA5B-482AFC03C30D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TURISTIKApp.Main", "TuristikApp.Main\TURISTIKApp.Main.csproj", "{98A6A0F1-44FE-40C1-BA5B-482AFC03C30D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TURISTIKApp.Entities", "TURISTIKApp.Entities\TURISTIKApp.Entities.csproj", "{B1F68ED4-7A81-46DB-A4B3-0FCA21AA05D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TURISTIKApp.Entities", "TURISTIKApp.Entities\TURISTIKApp.Entities.csproj", "{B1F68ED4-7A81-46DB-A4B3-0FCA21AA05D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TURISTIKApp.API", "TURISTIKApp.API\TURISTIKApp.API.csproj", "{6513314C-5C77-4BBA-BE55-03C32332A7BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TURISTIKApp.API", "TURISTIKApp.API\TURISTIKApp.API.csproj", "{6513314C-5C77-4BBA-BE55-03C32332A7BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TURISTIKApp.DataAccess", "TuristikApp.DataAccess\TURISTIKApp.DataAccess.csproj", "{24D25E2D-B0EA-412A-AA29-BD8AD953F4D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{6513314C-5C77-4BBA-BE55-03C32332A7BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6513314C-5C77-4BBA-BE55-03C32332A7BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6513314C-5C77-4BBA-BE55-03C32332A7BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24D25E2D-B0EA-412A-AA29-BD8AD953F4D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24D25E2D-B0EA-412A-AA29-BD8AD953F4D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24D25E2D-B0EA-412A-AA29-BD8AD953F4D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24D25E2D-B0EA-412A-AA29-BD8AD953F4D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
