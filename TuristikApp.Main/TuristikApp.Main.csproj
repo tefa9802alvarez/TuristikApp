@@ -15,4 +15,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TuristikApp.DataAccess\TURISTIKApp.DataAccess.csproj" />
+    <ProjectReference Include="..\TURISTIKApp.Entities\TURISTIKApp.Entities.csproj" />
+  </ItemGroup>
+
 </Project>
